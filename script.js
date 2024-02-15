@@ -57,3 +57,10 @@ ctx.fillRect(140, 120, 40, 10);
 //boat window
 ctx.fillStyle = "lightblue";
 ctx.fillRect(250, 200, 30, 40);
+//text
+ctx.font = "15px Arial";
+ctx.fillStyle = "white";
+ctx.fillText("art by kale smart", 480, 280);
+//shark image
+let sharkImg = document.getElementById("sharkEl");
+ctx.drawImage(sharkImg, 30, 200, 90, 90);
